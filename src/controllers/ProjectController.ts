@@ -49,7 +49,9 @@ class ProjectController {
 
     const _projectIndex: number = projects.findIndex((project) => project.id === Number(id))
 
-    if (!_projectIndex) {
+    console.log(_projectIndex)
+
+    if (_projectIndex < 0) {
       return res.status(404).json({ mensage: 'Project not Found' })
     }
 
