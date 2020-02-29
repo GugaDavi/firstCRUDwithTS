@@ -1,3 +1,3 @@
-const number = 8
+import App from './app'
 
-console.log(number)
+App.listen(3333)
