@@ -1,3 +1,3 @@
-const number: Number = 8;
+const number = 8
 
-console.log(number);
+console.log(number)
